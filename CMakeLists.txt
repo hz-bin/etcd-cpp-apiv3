@@ -26,7 +26,7 @@ if(NOT CMAKE_BUILD_TYPE AND NOT CMAKE_CONFIGURATION_TYPES)
     )
 endif()
 
-option(BUILD_SHARED_LIBS "Build etcd-cpp-apiv3 shared libraries" ON)
+option(BUILD_SHARED_LIBS "Build etcd-cpp-apiv3 shared libraries" OFF)
 option(BUILD_ETCD_TESTS "Build etcd-cpp-apiv3 test cases" OFF)
 option(CMAKE_POSITION_INDEPENDENT_CODE "Build etcd-cpp-apiv3 with -fPIC" ON)
 option(ETCD_W_STRICT "Build etcd-cpp-apiv3 with -Werror" ON)
